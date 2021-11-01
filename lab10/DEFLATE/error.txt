@@ -1,0 +1,69 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+deflate_test is a Catch v2.13.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Juiste verwijzingen
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:15
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:26: FAILED:
+  CHECK( sa.zoekHerhaling(0, 7, 28) == std::pair<int, int>({6, 6}) )
+with expansion:
+  { 0, 0 } == { 6, 6 }
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:28: FAILED:
+  CHECK( sa.zoekHerhaling(0, 19, 16) == std::pair<int,int>({4,15}) )
+with expansion:
+  { 0, 0 } == { 4, 15 }
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:33: FAILED:
+  CHECK( sa.zoekHerhaling(0, 27, 8).first == 0 )
+with expansion:
+  1 == 0
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:41: FAILED:
+  CHECK( sa.zoekHerhaling(0, 35, 0).first == 0 )
+with expansion:
+  1 == 0
+
+-------------------------------------------------------------------------------
+Compress a single character text
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:55
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:62: FAILED:
+  REQUIRE( (100 * compressed.size()) / decompressed.size() < 2 )
+with expansion:
+  37 < 2
+
+-------------------------------------------------------------------------------
+Compress lingtext
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:86
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:97: FAILED:
+  REQUIRE( false )
+with message:
+  Decompressed and original text do not match
+
+-------------------------------------------------------------------------------
+Compress wgs_caam_env
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:101
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/DEFLATE/test/test.cpp:112: FAILED:
+  REQUIRE( false )
+with message:
+  Decompressed and original text do not match
+
+===============================================================================
+test cases:  5 |  1 passed | 4 failed
+assertions: 29 | 22 passed | 7 failed
+
+

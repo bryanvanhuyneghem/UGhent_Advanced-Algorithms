@@ -1,0 +1,30 @@
+digraph G {
+    graph [ ordering="out"];
+    /* Entities */
+    P [label="s"]
+    V [label="t"]
+
+
+    P->L11[label="7"]
+    P->L12[label="10"]
+
+    L12->L11[label="3" constraint=false]
+    L12->L13[label="5"]
+    L13->P[label="2"]
+
+    L11->L21[label="4"]
+    L12->L22[label="6"]
+    L13->L23[label="6"]
+    L21->L22[label="6"]
+    L23->L22[label="2" constraint=false]
+
+    V->L21[label="1"]
+    L22->V[label="8"]
+    L23->V[label="7"]
+
+
+    /* Ranks */
+    { rank=same; L11,L12,L13; };
+    { rank=same; L21,L22,L23; };
+
+}

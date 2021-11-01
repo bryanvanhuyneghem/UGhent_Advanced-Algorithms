@@ -1,0 +1,121 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+boyer_moore_test is a Catch v2.13.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+BM met heuristiek van verkeerde karakter
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:34
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  9 == 10
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  15 == 20
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  21 == 22
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  15 == 16
+
+-------------------------------------------------------------------------------
+Vergelijking performantie C++ string::find en BM-implementaties
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/benchmark.cpp:38
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+C++ Find                                        10             1    192.277 ms 
+                                        19.2147 ms    19.1015 ms    19.4099 ms 
+                                        233.595 us    54.7322 us    302.628 us 
+                                                                               
+BM met heuristiek Verkeerde                                                    
+Karakter                                        10             1    298.576 ms 
+                                        29.7391 ms    29.7175 ms     29.758 ms 
+                                        32.7486 us    23.0496 us    47.8354 us 
+                                                                               
+BM-Horspool                                     10             1    256.674 ms 
+                                        25.6615 ms    25.6489 ms    25.6916 ms 
+                                        29.8975 us    10.5935 us    49.2034 us 
+                                                                               
+BM-Sunday                                       10             1    245.776 ms 
+                                        24.4623 ms    24.3933 ms    24.7073 ms 
+                                        188.758 us    17.2843 us    314.225 us 
+                                                                               
+
+-------------------------------------------------------------------------------
+Vergelijking performantie C++ string::find en BM-implementaties in DNA
+sequentie
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/benchmark.cpp:88
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+C++ Find                                        10             1     534.12 ms 
+                                        54.8649 ms    53.5818 ms    55.9722 ms 
+                                        1.92731 ms    1.54308 ms     2.3345 ms 
+                                                                               
+BM met heuristiek Verkeerde                                                    
+Karakter                                        10             1    865.495 ms 
+                                        86.1174 ms    85.8212 ms    86.8093 ms 
+                                        695.353 us    272.367 us    1.13444 ms 
+                                                                               
+BM-Horspool                                     10             1     536.03 ms 
+                                        53.3201 ms    53.2462 ms    53.4068 ms 
+                                        129.636 us    99.8693 us    165.275 us 
+                                                                               
+BM-Sunday                                       10             1    766.165 ms 
+                                        76.3348 ms    76.2482 ms    76.4948 ms 
+                                        186.534 us    80.9425 us    300.912 us 
+                                                                               
+
+-------------------------------------------------------------------------------
+Vergelijking performantie C++ string::find en BM-implementaties met worst-case
+scenarios
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/benchmark.cpp:138
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+C++ Find                                        10             1      1.9896 s 
+                                        203.826 ms    201.859 ms    206.906 ms 
+                                        3.93357 ms    2.60021 ms    5.87833 ms 
+                                                                               
+BM met heuristiek Verkeerde                                                    
+Karakter                                        10             1     1.22901 m 
+                                         7.39126 s     7.36568 s     7.43511 s 
+                                        52.9998 ms    29.4015 ms    82.8741 ms 
+                                                                               
+BM-Horspool                                     10             1     44.6285 s 
+                                         4.46448 s     4.43652 s     4.50463 s 
+                                        53.8721 ms    32.9738 ms    81.7875 ms 
+                                                                               
+BM-Sunday                                       10             1     48.6295 s 
+                                         4.88121 s     4.87068 s     4.89693 s 
+                                        20.6505 ms    13.1335 ms    30.2086 ms 
+                                                                               
+
+===============================================================================
+test cases:  6 |  5 passed | 1 failed
+assertions: 42 | 38 passed | 4 failed
+

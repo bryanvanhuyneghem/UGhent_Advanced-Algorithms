@@ -1,0 +1,189 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+boyer_moore_test is a Catch v2.13.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+BM met heuristiek van verkeerde karakter
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:34
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 10
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 20
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 22
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 16
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 54
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 16
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:44: FAILED:
+  CHECK( bmvk.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHeuristiekVerkeerdeKarakter )
+with expansion:
+  0 == 7
+
+-------------------------------------------------------------------------------
+BM-Horspool
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:50
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 9
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 20
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 14
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 14
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 54
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 14
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:60: FAILED:
+  CHECK( bmh.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenHorspool )
+with expansion:
+  0 == 7
+
+-------------------------------------------------------------------------------
+BM-Sunday
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:64
+...............................................................................
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 9
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 12
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 20
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 15
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 54
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 15
+
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/test.cpp:73: FAILED:
+  CHECK( bms.laatsteAantalKaraktervergelijkingen == tzt.aantalVergelijkingenSunday )
+with expansion:
+  0 == 4
+
+-------------------------------------------------------------------------------
+Vergelijking performantie C++ string::find en BM-implementaties
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/benchmark.cpp:38
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+C++ Find                                        10             1    191.418 ms 
+                                        19.2042 ms    19.1486 ms    19.3432 ms 
+                                        134.929 us    46.0646 us    224.486 us 
+                                                                               
+BM met heuristiek Verkeerde                                                    
+Karakter                                        10             1    281.851 ms 
+                                        28.7015 ms    28.6189 ms    28.7468 ms 
+                                        96.0209 us    46.6291 us    152.339 us 
+                                                                               
+BM-Horspool                                     10             1    258.788 ms 
+                                        25.2787 ms    25.2672 ms    25.2996 ms 
+                                        24.4388 us    12.8603 us    38.9558 us 
+                                                                               
+BM-Sunday                                       10             1    244.952 ms 
+                                        24.4228 ms    24.4002 ms    24.4369 ms 
+                                        28.3401 us    15.8407 us    44.4723 us 
+                                                                               
+
+-------------------------------------------------------------------------------
+Vergelijking performantie C++ string::find en BM-implementaties in DNA
+sequentie
+-------------------------------------------------------------------------------
+/home/adam/projects/school/algo2/labos/BoyerMoore/test/benchmark.cpp:88
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+C++ Find                                        10             1    526.539 ms 
+                                        56.0874 ms    54.6781 ms    56.8986 ms 
+                                        1.66862 ms    395.806 us    2.19108 ms 
+                                                                               
+BM met heuristiek Verkeerde                                                    
+Karakter                                        10             1    819.234 ms 
+                                        81.8329 ms    81.7617 ms    81.9439 ms 
+                                        141.501 us    79.7716 us    220.857 us 
+                                                                               
+BM-Horspool                                     10             1    539.817 ms 
+                                        53.9259 ms    53.8152 ms    54.0094 ms 
+                                        153.901 us    101.004 us    226.633 us 
+                                                                               
+BM-Sunday                                       10             1    778.208 ms 
+                                        77.7404 ms    77.6615 ms    77.8031 ms 
+                                        114.176 us    82.2436 us    153.898 us 
+                                                                               
+
+===============================================================================
+test cases:  5 |  2 passed |  3 failed
+assertions: 42 | 21 passed | 21 failed
+
