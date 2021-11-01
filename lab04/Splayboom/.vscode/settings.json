@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.tcc": "cpp",
-        "vector": "cpp"
-    },
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
-}
