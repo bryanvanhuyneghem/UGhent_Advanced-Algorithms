@@ -26,7 +26,7 @@ std::string genereer_debruijnreeks(int alfabet_lengte, int orde){
     // Find the Euler circuit.
     std::vector<int> circuit = eulercircuit(g);
 
-    // Construct the dbr as a string.
+    // Construct the dbr as a string
     std::stringstream ss;
     for(int element : circuit){
         ss << (char) (takdata_mapping[element] + 'a');
