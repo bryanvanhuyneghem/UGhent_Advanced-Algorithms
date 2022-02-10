@@ -1,0 +1,46 @@
+@startuml
+top to bottom direction
+
+class Graaf<RT> {
+    +isGericht()
+    
+    +voegKnoopToe()
+    +voegVerbindingToe(van, naar)
+    +verwijderVerbinding(van, naar)
+    
+    
+    +aantalVerbindingen()
+    +aantalKnopen()
+    
+    +operator[](knoopnr) : map<int,int>
+    
+    vector<map<int,int>> burenlijsten 
+    
+}
+
+class GraafMetKnoopdata<RT,Knoopdata> {
+    +voegKnoopToe(Knoopdata)
+    +geefKnoopdata(knoopnr)
+    
+    vector<Knoopdata> knoopdatavector
+}
+
+
+class GraafMetTakdata<RT, Takdata> {
+    +voegVerbindingToe(van,naar,Takdata)
+    +geefTakdata(van,naar
+    
+    vector<Takdata> takdatavector
+}
+
+class GraafMetKnoopEnTakdata<RT, Knoopdata, Takdata>{
+}
+
+GraafMetKnoopdata -u-> Graaf
+GraafMetTakdata -u-> Graaf
+
+GraafMetKnoopEnTakdata -u-> GraafMetKnoopdata
+GraafMetKnoopEnTakdata -u-> GraafMetTakdata
+
+
+@enduml

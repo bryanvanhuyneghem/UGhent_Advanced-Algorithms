@@ -1,0 +1,8 @@
+graph G {
+    
+    A -- B [label="&alpha;"]
+    B -- C [label="&beta;"]
+    B -- D [label="&delta;"]
+    C -- D [label="&sigma;"]
+
+}
