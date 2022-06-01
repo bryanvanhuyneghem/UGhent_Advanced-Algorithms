@@ -85,7 +85,7 @@ TEST_CASE("Componentengraaf", "[SCC]")
 
 TEST_CASE("Eerste kring ketting", "[Woordketen]")
 {
-	auto g = leesGraaf("/home/bryan/_labs/lab01/Kettingwoorden/woordenlijst.txt", "/home/bryan/_labs/lab01/Kettingwoorden/takkenlijst.txt");
+	auto g = leesGraaf("/home/bryan/UGhent_Advanced-Algorithms/lab01/Kettingwoorden/woordenlijst.txt", "/home/bryan/UGhent_Advanced-Algorithms/lab01/Kettingwoorden/takkenlijst.txt");
 	
 	CHECK(g.aantalVerbindingen() == 225825); 
 

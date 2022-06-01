@@ -5,7 +5,7 @@
 
 int main()
 {
-    GraafMetKnoopEnTakdata<GERICHT, std::string, std::string> woorden = leesGraaf("/home/bryan/_labs/lab01/Kettingwoorden/woordenlijst.txt", "/home/bryan/_labs/lab01/Kettingwoorden/takkenlijst.txt");
+    GraafMetKnoopEnTakdata<GERICHT, std::string, std::string> woorden = leesGraaf("/home/bryan/UGhent_Advanced-Algorithms/lab01/Kettingwoorden/woordenlijst.txt", "/home/bryan/UGhent_Advanced-Algorithms/lab01/Kettingwoorden/takkenlijst.txt");
 
     std::cout << woorden.aantalVerbindingen() << " verbindingen ingelezen" << std::endl;
 
