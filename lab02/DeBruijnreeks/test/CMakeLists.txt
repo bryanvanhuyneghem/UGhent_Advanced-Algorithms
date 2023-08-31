@@ -2,19 +2,15 @@ cmake_minimum_required (VERSION 3.14)
 
 project (debruijn_test)
 
-#Setup Catch2
+#Setup doctest
 include(FetchContent)
-FetchContent_Declare(catch
-  GIT_REPOSITORY 	"https://github.com/catchorg/catch2.git"
-  GIT_TAG 		"v2.13.0"
+FetchContent_Declare(doctest
+  GIT_REPOSITORY 	"https://github.com/onqtam/doctest"
+  GIT_TAG 		"v2.4.9"
   GIT_SHALLOW		true
 )
 
-FetchContent_MakeAvailable(catch)
-
-LIST(APPEND CMAKE_MODULE_PATH "${catch_SOURCE_DIR}/contrib")
-set(AdditionalCatchParameters )
-#add_subdirectory(catch EXCLUDE_FROM_ALL)
+FetchContent_MakeAvailable(doctest)
 
 
 set(SOURCES
@@ -22,11 +18,13 @@ set(SOURCES
 )
 
 add_executable(debruijn_test ${SOURCES} ${HEADERS})
-target_link_libraries(debruijn_test PUBLIC Graaf Euler DeBruijn Catch2::Catch2)
+target_link_libraries(debruijn_test PUBLIC Graaf Euler DeBruijn doctest)
 
 
 include(CTest)
-include(Catch)
-catch_discover_tests(debruijn_test
-	EXTRA_ARGS -o report.xml -s -r junit
+include (${doctest_SOURCE_DIR}/scripts/cmake/doctest.cmake)
+doctest_discover_tests(debruijn_test
+ 	EXTRA_ARGS -o report.xml -s -r junit
 )
+
+

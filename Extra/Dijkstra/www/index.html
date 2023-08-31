@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Gevorderde Algoritmen - Graaf - Breedte Eerst Zoeken</title>
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="docs/images/favicon.ico"
+    />
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <script src="js/leaflet.js"></script>
+    <script src="js/chroma.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="css/milligram.css" />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        min-height: 100%;
+      }
+
+      #map {
+        height: 100%;
+        min-height: 600px;
+      }
+
+      .knooppunt-popup {
+        font-size: 1.6rem;
+        line-height: 1.6;
+      }
+
+      #aantal {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="column">
+          <h1>Grafen: Kortste Pad</h1>
+          <form onsubmit="return false;">
+            <fieldset>
+                <input type="checkbox" id="bidirectioneel" />
+                <label class="label-inline" for="bidirectioneel">Bidirectioneel zoeken</label>
+            </fieldset>
+          </form>
+          <p>
+            Aantal permanente knopen: <span id="aantal">0</span>
+          </p>
+          <div id="map"></div>
+        </div>
+      </div>
+
+      <script src="js/map.js" async></script>
+    </main>
+  </body>
+</html>

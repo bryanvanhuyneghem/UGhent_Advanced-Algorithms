@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -fsanitize=address,undefined -fno-om
 include_directories(include)
 
 add_library(RegexpLib STATIC include/regexp.h src/regexp.cpp include/automaten.h src/automaten.cpp)
-
+		
 add_executable(regexp_voorbeeld src/regexp_voorbeeld.cpp)
 target_link_libraries(regexp_voorbeeld RegexpLib)
 

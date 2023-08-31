@@ -164,59 +164,23 @@ public:
 
     T geefCapaciteit();
 
+
+    Stroomnetwerk<T> &operator-=(const Pad<T> &pad);
+    Stroomnetwerk<T> &operator+=(const Pad<T> &pad);
+
+
+
     int van, naar;
 
     virtual void teken(const char *bestandsnaam) const;
 
-    Stroomnetwerk<T>& operator-=(const Pad<T>& pad); 
-    Stroomnetwerk<T>& operator+=(const Pad<T>& pad); 
+private:
+    void vergrootTak(int start, int eind, T delta);
+
+
 protected:
     virtual std::string knooplabel(int i) const;
 };
-
-// Pad verwijderen
-template<class T>
-Stroomnetwerk<T>& Stroomnetwerk<T>::operator-=(const Pad<T>& pad){
-    int huidige_capaciteit = 0;
-    for(int i = 0; i < pad.size()-1; i++){
-        // terugverbinding bouwen voor residueel netwerk
-        if(this->verbindingsnummer(pad[i+1], pad[i]) == -1){
-            // nieuwe verbinding leggen
-            this->voegVerbindingToe(pad[i+1], pad[i], pad.geefCapaciteit());
-        }
-        else {
-            // pad bestaat al in die richting
-            huidige_capaciteit = *this->geefTakdata(pad[i+1], pad[i]);
-            this->verwijderVerbinding(pad[i+1], pad[i]);
-            this->voegVerbindingToe(pad[i+1], pad[i], huidige_capaciteit + pad.geefCapaciteit());
-        }
-        // originele updaten (verminderen)
-        huidige_capaciteit = *this->geefTakdata(pad[i], pad[i+1]);
-        this->verwijderVerbinding(pad[i], pad[i+1]);
-        this->voegVerbindingToe(pad[i], pad[i+1], huidige_capaciteit - pad.geefCapaciteit());
-    }
-    return *this;
-}
-
-
-// Pad toevoegen
-template<class T>
-Stroomnetwerk<T>& Stroomnetwerk<T>::operator+=(const Pad<T>& pad){
-    int huidige_capaciteit = 0;
-    for(int i = 0; i < pad.size()-1; i++){
-        // safety check; necessary?
-        if(this->verbindingsnummer(pad[i], pad[i+1]) == -1){
-            this->voegVerbindingToe(pad[i], pad[i+1], pad.geefCapaciteit());
-        }
-        else {
-            // originele updaten (vermeerderen)
-            huidige_capaciteit = *this->geefTakdata(pad[i], pad[i+1]);
-            this->verwijderVerbinding(pad[i], pad[i+1]);
-            this->voegVerbindingToe(pad[i], pad[i+1], huidige_capaciteit + pad.geefCapaciteit());
-        }
-    }
-    return *this;
-}
 
 template<class T>
 Stroomnetwerk<T>::Stroomnetwerk(int grootte, int _van, int _naar):
@@ -254,6 +218,70 @@ Stroomnetwerk<T> Stroomnetwerk<T>::geefStroom() {
     restnetwerk.teken("restnet.dot");
     return oplossing;
 }
+
+
+template <class T>
+Stroomnetwerk<T> &Stroomnetwerk<T>::operator-=(const Pad<T> &pad)
+{
+    T padcapaciteit = pad.geefCapaciteit();
+    for (int i = 1; i < pad.size(); i++)
+    {
+        int start = pad[i - 1]; //start en eind van de tak
+        int eind = pad[i];
+        int taknr = this->verbindingsnummer(start, eind);
+        assert(taknr >= 0);
+        assert(this->takdatavector[taknr] >= padcapaciteit);
+        if (this->takdatavector[taknr] == padcapaciteit)
+            this->verwijderVerbinding(start, eind);
+        else
+            this->takdatavector[taknr] -= padcapaciteit;
+        vergrootTak(eind, start, padcapaciteit);
+    }
+
+    return *this;
+}
+
+template <class T>
+Stroomnetwerk<T> &Stroomnetwerk<T>::operator+=(const Pad<T> &pad)
+{
+    T padcapaciteit = pad.geefCapaciteit();
+    for (int i = 1; i < pad.size(); i++)
+    {
+        T nucapaciteit = padcapaciteit;
+        int van = pad[i - 1];
+        int naar = pad[i];
+        int terugtak = this->verbindingsnummer(naar, van);
+        if (terugtak != -1)
+        {
+            if (this->takdatavector[terugtak] <= nucapaciteit)
+            {
+                nucapaciteit -= this->takdatavector[terugtak];
+                this->verwijderVerbinding(naar, van);
+                if (nucapaciteit > 0)
+                    vergrootTak(van, naar, nucapaciteit);
+            }
+            else
+            {
+                this->takdatavector[terugtak] -= nucapaciteit;
+            }
+        }
+        else
+            vergrootTak(van, naar, padcapaciteit);
+    }
+
+    return *this;
+}
+
+template <class T>
+void Stroomnetwerk<T>::vergrootTak(int start, int eind, T delta)
+{
+    int taknr = this->verbindingsnummer(start, eind);
+    if (taknr == -1)
+        taknr = this->voegVerbindingToe(start, eind, delta);
+    else
+        this->takdatavector[taknr] += delta;
+}
+
 
 template<class T>
 T Stroomnetwerk<T>::geefCapaciteit() {

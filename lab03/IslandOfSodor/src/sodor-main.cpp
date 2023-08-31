@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main() {
-	auto network = readNetwork("../sodor-trainnetwork.json");
+	auto network = readNetwork("sodor-trainnetwork.json");
 
 	// for(auto station: network){
 	// 	std::cout << station.name << " has " << station.destinations.size() << " neighbours\n";

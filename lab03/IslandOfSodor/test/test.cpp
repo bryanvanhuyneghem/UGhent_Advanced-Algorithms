@@ -1,11 +1,11 @@
-#define CATCH_CONFIG_MAIN // This tells Catch to provide a main() - only do this in one cpp file
-#include <catch2/catch.hpp>
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN // This tells Doctest to provide a main() - only do this in one cpp file
+#include "doctest/doctest.h"
 #include "network-reader.h"
 #include "sodor.h"
 
 using sodor::Destination;
 using sodor::TrainStation;
-TEST_CASE("Simpel treinnetwerk", "[sodor]")
+TEST_CASE("Simpel treinnetwerk")
 {
 
 	std::vector<TrainStation> stations;
@@ -41,7 +41,7 @@ TEST_CASE("Simpel treinnetwerk", "[sodor]")
 
 }
 
-TEST_CASE("Read network", "[sodor]")
+TEST_CASE("Read network")
 {
 	auto stations = readNetwork("../sodor-trainnetwork.json");
 

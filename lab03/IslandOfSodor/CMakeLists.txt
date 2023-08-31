@@ -26,12 +26,6 @@ set(HEADERS
     include/stroomnet.h
 )
 
-# Executable for 'bipartite graaf'
-add_executable(bipartite src/bipartite.cpp ${HEADERS})
-
-#copy input file for 'bipartite' to build directory
-configure_file(bipartitegraaf bipartitegraaf COPYONLY)
-
 add_library(NetworkReader SHARED src/network-reader.cpp)
 target_link_libraries(NetworkReader PUBLIC nlohmann_json::nlohmann_json)
 

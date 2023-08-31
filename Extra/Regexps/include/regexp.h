@@ -10,9 +10,9 @@ using std::ostream;
 using std::string;
 using std::unique_ptr;
 using std::vector;
-
 typedef unsigned char uchar;
-const uchar epsilon = 0;
+//Regexp leest een reguliere expressie in, en zet ze om naar een
+//boomstructuur.
 
 class Taalexceptie : public exception
 {
@@ -37,7 +37,7 @@ private:
  * - twee regexpoperanden verbonden met een opcode 'of' (`|`) of 'concatenatie' (`_`);
  * - een regexp met de opcode 'ster' `*` 
  * 
- * epsilon wordt beschouwd als een gewone letter (cfr. constante gedefinieerd bovenaan in dit bestand)
+ * epsilon wordt beschouwd als een gewone letter.
  */
 class Regexp
 {

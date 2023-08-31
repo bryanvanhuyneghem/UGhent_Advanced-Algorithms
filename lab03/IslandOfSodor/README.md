@@ -1,51 +1,64 @@
-# Stroomnetwerken - Island of Sodor
+# Min cut/max flow in een stroomnetwerk - Island of Sodor
 
-## Eenvoudige opgave
+## Introductie
 
-1. Bekijk de klassen gedefinieerd in [`stroomnet.h`](include/stroomnet.h).
+In een graaf kan de max-flow-min-cut-stelling gebruikt worden voor verschillende 
+interessante toepassingen: om de bottleneck in een netwerk te bepalen, om vraag
+en aanbod maximaal met elkaar te verbinden, enzovoort.
 
-   Deze klassen zijn nog niet volledig, en niet alle functies zijn geimplementeerd. Welke functies moeten nog worden toegevoegd?
+## Opgave
 
-   Formuleer eerst **duidelijk** wat eventueel nog te schrijven lidfuncties allemaal veronderstellen als precondities.
+Vervolledig de implementatie voor het zoeken van de min-cut/max-flow in een stroomnetwerk. 
+
+Je krijgt een aantal bouwstenen van ons:
+
+In [`stroomnet.h`](include/stroomnet.h) vind je volgende klassen:
+
+* `Stroomnetwerk<T>`: deze klasse erft over van `GraafMetTakdata<GERICHT,T>`,
+en krijgt ook een `van` en `naar` knoop opgegeven. De functie `geefStroom()` geeft
+een Stroomnetwerk terug waarbij de waarde van elke tak in de graaf weergeeft hoeveel
+*stroom* er door die tak passert zodat de *stroom* van de `van`-knoop naar de `naar`-knoop
+maximaal is. `geefCapaciteit()` geeft terug hoeveel de totale stroom tussen de twee opgegeven knopen
+bedraagt.
+
+* `Pad<T>` erft over van `vector<int>`, en bevat de knoopnummers van een pad in de graaf.
+De functie `geefCapaciteit` vertelt hoeveel stroom er over dit pad kan lopen.
+
+* `VergrotendpadZoeker` is een hulpklasse die een vergrotend pad zoekt in een stroomnetwerk.
 
 
-2. Bekijk volgend stroomnetwerk:
+De functie `geefStroom` ziet eruit als volgt:
 
-   ![eenvoudig-stroomnetwerk.svg](images/eenvoudig-stroomnetwerk.svg)
+```cpp
+template <class T>
+Stroomnetwerk<T> Stroomnetwerk<T>::geefStroom() {
+  Stroomnetwerk<T> oplossing(this->aantalKnopen(), van, naar);
+  Stroomnetwerk<T> restnetwerk(*this);
+  Vergrotendpadzoeker<T> vg(restnetwerk);
+  Pad<T> vergrotendpad = vg.geefVergrotendPad();
+  while (vergrotendpad.size() != 0) {
+    restnetwerk -= vergrotendpad;
+    oplossing += vergrotendpad;
+    vergrotendpad = vg.geefVergrotendPad();
+  }
+  return oplossing;
+}
+```
 
-   Los dit op, gebruik makend van breedte-eerst zoeken om een vergrotend pad te vinden.
+Om deze code te doen werken, moeten er 2 operators worden geimplementeerd:
 
-   Je krijgt van ons [`test/eenvoudig-stroomnetwerk.cpp`](test/eenvoudig-stroomnetwerk.cpp) die bovenstaande graaf voor jou aanmaakt.
+```
+template <class T>
+Stroomnetwerk<T>& Stroomnetwerk<T>::operator-=(const Pad<T>& pad)}{
 
-## Bipartite graaf
+template <class T>
+Stroomnetwerk<T>& Stroomnetwerk<T>::operator+=(const Pad<T>& pad)
+}
+```  
 
-Je krijgt van ons een [bipartite graaf](bipartitegraaf). Het formaat van het bestand is:
+Test dit uit met volgende graaf:
 
-- Op de eerste lijn het aantal knopen
-- Op elke volgende lijn een verbinding.
-
-1. Vorm zoveel mogelijk paren in deze graaf. Hoeveel zijn dat er? Implementeer hiervoor het algoritme dat mbv. het
-   K-alternerend pad de maximum koppeling zoekt.
-   
-2. Controleer je antwoord door dit probleem op te lossen met behulp van een stroomnetwerk.
-
-   Voor een gegeven bipartite graaf:
-   
-   ![bipartite graaf](images/bipartite-graaf.png)
-   
-   Voeg 2 extra "virtuele" knopen toe: een startknoop en eindknoop. Verbind de startknoop met alle knopen uit de 
-   ene verzameling. Verbind alle knopen uit de andere verzameling met de eindknoop. Maak de verbindingen van de ene 
-   naar de andere verzameling gericht. Geef aan alle verbindingen capaciteit 1.
-   
-   Je resulterende graaf ziet er dan als volgt uit:
-   
-   ![bipartite graaf als stroomnetwerk](images/bipartite-graaf-als-stroomnetwerk.png)
-   
-   Zoek in deze graaf de maximale stroom.
-   
-3. Leg het verband uit tussen beide methodes. Hoe zal een vergrotend pad eruit zien in dit stroomnetwerk? Waarom lijkt 
-   dit op een K-alternerend pad?
-
+![](images/eenvoudig-stroomnetwerk.svg)
  
 
 ## Toepassing

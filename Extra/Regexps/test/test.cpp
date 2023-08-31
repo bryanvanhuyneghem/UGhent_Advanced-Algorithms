@@ -1,13 +1,11 @@
-#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
-#include <catch2/catch.hpp>
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN // This tells Doctest to provide a main() - only do this in one cpp file
+#include "doctest/doctest.h"
 #include "automaten.h"
-#include <iostream>
-using std::cout;
 
-TEST_CASE("Voorbeeld cursus", "[regexp]"){
+TEST_CASE("Eenvoudige Regexp"){
 	Regexp r("(a|b)*a(a|b)");
-	DA da(r);
 
+	DA da(r);
 	CHECK(da.zitInTaal("aab"));
 	CHECK(!da.zitInTaal("abb"));
 	CHECK(da.zitInTaal("aaab"));
@@ -18,7 +16,8 @@ TEST_CASE("Voorbeeld cursus", "[regexp]"){
 }
 
 
-TEST_CASE("Concatenatie", "[regexp]"){
+
+TEST_CASE("Concatenatie"){
 	Regexp r("ab");
 	DA da(r);
 
@@ -31,7 +30,7 @@ TEST_CASE("Concatenatie", "[regexp]"){
 	CHECK(!da.zitInTaal("abc"));
 }
 
-TEST_CASE("Of", "[regexp]"){
+TEST_CASE("Of"){
 	Regexp r("a|b");
 	DA da(r);
 
@@ -44,7 +43,7 @@ TEST_CASE("Of", "[regexp]"){
 	CHECK(!da.zitInTaal("abc"));
 }
 
-TEST_CASE("Herhaling", "[regexp]"){
+TEST_CASE("Herhaling"){
 	Regexp r("(ab)*");
 	DA da(r);
 
@@ -63,7 +62,7 @@ TEST_CASE("Herhaling", "[regexp]"){
 }
 
 
-TEST_CASE("Alfabet van vier", "[regexp]"){
+TEST_CASE("Alfabet van vier"){
 	Regexp r("(a|b|c)*d(b|c)");
 	DA da(r);
 	CHECK(da.zitInTaal("abcdb"));

@@ -1,49 +1,42 @@
 #include "euler.h"
-//#include "componenten.cpp"
+#include <list>
+#include <map>
 
 bool heeft_eulercircuit(const Graaf<ONGERICHT>& g){
-    // All nodes must have an even amount of edges.
-    // We can therefore check if the size of every node g[i], i.e. the
-    // list of neighbor nodes, of our graph is an even number.
-    for(int i = 0; i < g.aantalKnopen(); i++){
+    for(int i = 0; i< g.aantalKnopen(); i++){
         if(g[i].size() % 2 != 0){
             return false;
-            break;
         }
     }
-    
     return true;
 }
 
 bool heeft_eulercircuit(const Graaf<GERICHT>& g){
-    // For every node, we track how many incoming and outgoing edges it has.
-    std::vector<std::pair<int, int> > in_uit_graden(g.aantalKnopen(), {0,0});
+    std::vector<int> incoming_count(g.aantalKnopen(), 0);
 
-    // Vraag aan de graaf voor elke knoop zijn Burenlijst op en overloop deze lijst.
-    // Vervolgens kunnen we voor deze knoop een uitgraad opmeten alsook voor de buur een ingraad opmeten
-
-    // Check the neighbor list for every node in the graph.
-    for(int nodeIndex = 0; nodeIndex < g.aantalKnopen(); nodeIndex++){
-        // The number of neighbors of a node is equal the amount of >outgoing< edges associated with this node
-        in_uit_graden[nodeIndex].second = g[nodeIndex].size();
-
-        // For every neighbor node (our iterator) of our original node, if there is a connection, we can
-        // increment the incoming edge count for that neighbor node by 1.  
-        for(auto it = g[nodeIndex].begin(); it != g[nodeIndex].end(); it++){
-            in_uit_graden[it->first].first++;
+    for(int i = 0; i < g.aantalKnopen(); i++){
+        for(auto &[neighbour_nr, edge_nr]: g[i]){
+            incoming_count[neighbour_nr]++;
         }
     }
 
-    // Check if all nodes have the same number of incoming and outgoing edges.
-    // == graph is pseudosymmetric.
+
     for(int i = 0; i < g.aantalKnopen(); i++){
-        if(in_uit_graden[i].first != in_uit_graden[i].second){
+        if(g[i].size() != incoming_count[i]){
             return false;
         }
     }
-   
+ 
     return true;
 }
+
+
+struct Buur
+{
+    int neighbour_nr;
+    int edge_nr;
+};
+
 
 /**
  * Geeft een mogelijk Eulercircuit terug
@@ -52,61 +45,79 @@ bool heeft_eulercircuit(const Graaf<GERICHT>& g){
  *          een Eulercircuit vormen
  */ 
 std::vector<int> eulercircuit(const Graaf<GERICHT>& g){
-    // If the graph does not have an euler circuit, then there is no point running this function.
     if(!heeft_eulercircuit(g)){
         throw std::domain_error("De opgegeven graaf bevat geen Eulercircuit");
     }
 
-    // Empty graph
-    if(g.aantalKnopen() == 0){
-        return std::vector<int>();
-    }
+   std::vector<bool> edge_was_visited(g.aantalVerbindingen(), false);
+    int edges_visited = 0;
 
-    // For every node, keep track of the number of edges that have to be dealt with.
-    std::vector<int> edges_per_node(g.aantalKnopen(), 0);
-    for(int i = 0; i < g.aantalKnopen(); i++){
-        edges_per_node[i] = g[i].size();
-    }
+    std::list<Buur> path{Buur{0, -1}}; //we start at node 0, and add an invalid edge
+    std::list<Buur>::iterator start_pos = path.begin();
 
-    // Keep track of all edges in our graph that have to be visited. Initially, none have been
-    // visited.
-    std::vector<bool> edges_visited(g.aantalVerbindingen(), false);
+    while (edges_visited < g.aantalVerbindingen())
+    {
+        int start_node_nr = start_pos->neighbour_nr;
+        std::list<Buur>::iterator path_insert_pos{start_pos};
+        path_insert_pos++; //new edges need to be inserted after the current path pos
 
-    std::stack<int> path;
-    std::vector<int> circuit; // Keeps track of the nodes on the Euler circuit
-    circuit.reserve(g.aantalKnopen());
+        //check if we can find unvisited edges in the current node
+        for (auto &[neighbour_nr, edge_nr] : g[start_node_nr])
+        {
+            if (!edge_was_visited[edge_nr])
+            {
+                // follow edges at-random until we arrive at current_node_nr again
 
-    int i = 0;
-    path.push(i); // Start with node 0 and push it on to the stack.
-    // Execute this loop while there are nodes on the stack that have to be dealt with.
-    while(!path.empty()){
-        // First, deal with all the edges of the node we are currently exploring.
-        if(edges_per_node[i] > 0){
-            path.push(i); // put the node on the stack
-            edges_per_node[i]--; // decrease the number of edges of node i that must be explored by 1
+                int curr_edge_nr = edge_nr;
+                int curr_node_nr = neighbour_nr;
 
-            // Find a neighbor that has not yet been visited in the neighbor list of the node i, i.e. edges_visited[neighbor.second] == false
-            // There will always be one, because the if-test above showed that number of connections for the node was bigger than 0
-            auto unvisited_neighbor = std::find_if(std::begin(g[i]), std::end(g[i]),  [&edges_visited](const std::pair<int, int> &neighbor){
-                return edges_visited[neighbor.second] == false;
-            });
+                while (curr_node_nr != start_node_nr)
+                {
+                    path.insert(path_insert_pos, Buur{curr_node_nr, curr_edge_nr});
+                    edge_was_visited[curr_edge_nr] = true;
+                    edges_visited++;
 
-            i = unvisited_neighbor->first; // next node (the neighbor) we will visit in the next iteration of the while-loop
-            edges_visited[unvisited_neighbor->second] = true; // we have visited this edge to this neighbor, so set the edge to true
+                    //find the next edge to follow
+                    const std::map<int,int> &curr_node = g[curr_node_nr];
+                    std::map<int,int>::const_iterator n = curr_node.begin();
+
+                    int node_nr, edge_nr;
+                    std::tie(node_nr, edge_nr) = *n;
+
+                    while (n != curr_node.end() && edge_was_visited[edge_nr])
+                    {
+                        n++;
+                        std::tie(node_nr, edge_nr) = *n;
+                    }
+
+                    assert(n != curr_node.end()); // we should always find an unused outgoing edge in a valid Euler-graph
+
+                    curr_node_nr = node_nr;
+                    curr_edge_nr = edge_nr;
+                }
+
+                //also add the last followed edge to the path
+                path.insert(path_insert_pos, Buur{curr_node_nr, curr_edge_nr});
+                edge_was_visited[curr_edge_nr] = true;
+                edges_visited++;
+            }
         }
-        else {
-            circuit.push_back(i); // add the node to the circuit
-            i = path.top(); // set new node that must be explored (will be one of the neighbors)
-            path.pop(); // pop this neighbor
-        }
+
+        //we followed all the unused edges in this node. Move to the next node in the path
+        start_pos++;
+        assert(start_pos != path.end());
     }
 
+    //convert our Buur-list to a vector of edges
+    std::vector<int> path_of_edge_nrs(g.aantalVerbindingen());
+    std::list<Buur>::const_iterator it = path.begin();
+    it++; //skip invalid edge at the beginning of the path
 
-    // Finalisation; turn the list of nodes into a list of edges
-    std::vector<int> euler_circuit;
-    for(int i = circuit.size()-1; i > 0; i--){
-        euler_circuit.push_back(g.verbindingsnummer(circuit[i], circuit[i-1]));
+    for (int i = 0; i < g.aantalVerbindingen(); ++i)
+    {
+        path_of_edge_nrs[i] = it->edge_nr;
+        it++;
     }
 
-    return euler_circuit;
+    return path_of_edge_nrs;
 }

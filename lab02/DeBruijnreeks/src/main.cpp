@@ -1,7 +1,6 @@
 #include <iostream>
 #include "debruijnreeks.h"
 
-
 int main() {
 	std::cout << "Geef de lengte van het alfabet: ";
 

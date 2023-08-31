@@ -1,7 +1,7 @@
-#include <catch2/catch.hpp>
+#include "doctest/doctest.h"
 #include "stroomnet.h"
 
-TEST_CASE("Eenvoudig stroomnetwerk", "[eenvoudig]")
+TEST_CASE("Eenvoudig stroomnetwerk")
 {
   GraafMetTakdata<GERICHT, int> gr(8);
   gr.voegVerbindingToe(1, 2, 7);

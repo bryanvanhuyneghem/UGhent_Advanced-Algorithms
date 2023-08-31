@@ -1,0 +1,2220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="203.01468pt"
+   height="720.45129pt"
+   viewBox="0 0 202.75102 720.18739"
+   version="1.1"
+   id="svg1986"
+   sodipodi:docname="eenvoudig.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1990" />
+  <sodipodi:namedview
+     id="namedview1988"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.8021978"
+     inkscape:cx="116.55479"
+     inkscape:cy="573.42466"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1986" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(0.65975396,0,0,0.65975396,2.4954297,717.5484)"
+     data-name="">
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="303.6,-1087.6 303.6,4 -4,4 -4,-1087.6 "
+       id="polygon1408" />
+    <!-- d1 -->
+    <g
+       id="node1"
+       class="node"
+       pointer-events="visible"
+       data-name="d1">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="163.8"
+         cy="-1065.6"
+         rx="27"
+         ry="18"
+         id="ellipse1410" />
+      <text
+         text-anchor="middle"
+         x="163.8"
+         y="-1061.4"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1412">d</text>
+    </g>
+    <!-- null2 -->
+    <g
+       id="node2"
+       class="node"
+       pointer-events="visible"
+       data-name="null2">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="116.8"
+         cy="-993.59998"
+         id="ellipse1415"
+         r="1.8" />
+    </g>
+    <!-- d1&#45;&gt;null2 -->
+    <g
+       id="edge64"
+       class="edge"
+       data-name="d1-&gt;null2">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 153,-1048.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1418" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="119.85,-1005.83 125.74,-1002.05 117.39,-995.53 "
+         id="polygon1420" />
+    </g>
+    <!-- i3 -->
+    <g
+       id="node3"
+       class="node"
+       pointer-events="visible"
+       data-name="i3">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="163.8"
+         cy="-993.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1423" />
+      <text
+         text-anchor="middle"
+         x="163.8"
+         y="-989.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1425">i</text>
+    </g>
+    <!-- d1&#45;&gt;i3 -->
+    <g
+       id="edge65"
+       class="edge"
+       data-name="d1-&gt;i3">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 163.8,-1047.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1428" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="160.3,-1021.7 167.3,-1021.7 163.8,-1011.7 "
+         id="polygon1430" />
+    </g>
+    <!-- null67 -->
+    <g
+       id="node67"
+       class="node"
+       pointer-events="visible"
+       data-name="null67">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="210.8"
+         cy="-993.59998"
+         id="ellipse1433"
+         r="1.8" />
+    </g>
+    <!-- d1&#45;&gt;null67 -->
+    <g
+       id="edge66"
+       class="edge"
+       data-name="d1-&gt;null67">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 174.6,-1048.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1436" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="201.86,-1002.05 207.75,-1005.83 210.21,-995.53 "
+         id="polygon1438" />
+    </g>
+    <!-- a4 -->
+    <g
+       id="node4"
+       class="node"
+       pointer-events="visible"
+       data-name="a4">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="80.800003"
+         cy="-921.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1441" />
+      <text
+         text-anchor="middle"
+         x="80.800003"
+         y="-917.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1443">a</text>
+    </g>
+    <!-- i3&#45;&gt;a4 -->
+    <g
+       id="edge61"
+       class="edge"
+       data-name="i3-&gt;a4">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 147.4,-978.77 c -12.24,10.32 -29.15,24.59 -42.87,36.16"
+         id="path1446" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="102.27,-945.29 106.78,-939.93 96.88,-936.16 "
+         id="polygon1448" />
+    </g>
+    <!-- t11 -->
+    <g
+       id="node11"
+       class="node"
+       pointer-events="visible"
+       data-name="t11">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="163.8"
+         cy="-921.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1451" />
+      <text
+         text-anchor="middle"
+         x="163.8"
+         y="-917.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1453">t</text>
+    </g>
+    <!-- i3&#45;&gt;t11 -->
+    <g
+       id="edge62"
+       class="edge"
+       data-name="i3-&gt;t11">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 163.8,-975.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1456" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="160.3,-949.7 167.3,-949.7 163.8,-939.7 "
+         id="polygon1458" />
+    </g>
+    <!-- null66 -->
+    <g
+       id="node66"
+       class="node"
+       pointer-events="visible"
+       data-name="null66">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="210.8"
+         cy="-921.59998"
+         id="ellipse1461"
+         r="1.8" />
+    </g>
+    <!-- i3&#45;&gt;null66 -->
+    <g
+       id="edge63"
+       class="edge"
+       data-name="i3-&gt;null66">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 174.6,-976.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1464" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="201.86,-930.05 207.75,-933.83 210.21,-923.53 "
+         id="polygon1466" />
+    </g>
+    <!-- null5 -->
+    <g
+       id="node5"
+       class="node"
+       pointer-events="visible"
+       data-name="null5">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="4.8000002"
+         cy="-849.59998"
+         id="ellipse1469"
+         r="1.8" />
+    </g>
+    <!-- a4&#45;&gt;null5 -->
+    <g
+       id="edge4"
+       class="edge"
+       data-name="a4-&gt;null5">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 62.68,-908.22 c -13.81,9.98 -32.79,24.89 -46.88,40.62 -1.98,2.21 -3.85,4.82 -5.47,7.31"
+         id="path1472" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="7.28,-862 13.34,-858.5 5.3,-851.59 "
+         id="polygon1474" />
+    </g>
+    <!-- t6 -->
+    <g
+       id="node6"
+       class="node"
+       pointer-events="visible"
+       data-name="t6">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="51.799999"
+         cy="-849.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1477" />
+      <text
+         text-anchor="middle"
+         x="51.799999"
+         y="-845.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1479">t</text>
+    </g>
+    <!-- a4&#45;&gt;t6 -->
+    <g
+       id="edge5"
+       class="edge"
+       data-name="a4-&gt;t6">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 73.93,-904.01 c -3.4,8.19 -7.57,18.27 -11.38,27.46"
+         id="path1482" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="59.22,-877.65 65.68,-874.97 58.62,-867.07 "
+         id="polygon1484" />
+    </g>
+    <!-- null10 -->
+    <g
+       id="node10"
+       class="node"
+       pointer-events="visible"
+       data-name="null10">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="98.800003"
+         cy="-849.59998"
+         id="ellipse1487"
+         r="1.8" />
+    </g>
+    <!-- a4&#45;&gt;null10 -->
+    <g
+       id="edge6"
+       class="edge"
+       data-name="a4-&gt;null10">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 85.16,-903.65 c 3.39,13.2 8,31.12 10.9,42.38"
+         id="path1490" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="92.71,-860.23 99.49,-861.97 98.59,-851.42 "
+         id="polygon1492" />
+    </g>
+    <!-- null7 -->
+    <g
+       id="node7"
+       class="node"
+       pointer-events="visible"
+       data-name="null7">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="29.799999"
+         cy="-777.59998"
+         id="ellipse1495"
+         r="1.8" />
+    </g>
+    <!-- t6&#45;&gt;null7 -->
+    <g
+       id="edge1"
+       class="edge"
+       data-name="t6-&gt;null7">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 46.47,-831.65 c -4.14,13.2 -9.78,31.12 -13.32,42.38"
+         id="path1498" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="29.72,-790.01 36.39,-787.91 30.06,-779.42 "
+         id="polygon1500" />
+    </g>
+    <!-- null8 -->
+    <g
+       id="node8"
+       class="node"
+       pointer-events="visible"
+       data-name="null8">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="51.799999"
+         cy="-777.59998"
+         id="ellipse1503"
+         r="1.8" />
+    </g>
+    <!-- t6&#45;&gt;null8 -->
+    <g
+       id="edge2"
+       class="edge"
+       data-name="t6-&gt;null8">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 51.8,-831.3 c 0,13.07 0,30.59 0,41.77"
+         id="path1506" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="48.3,-789.41 55.3,-789.41 51.8,-779.41 "
+         id="polygon1508" />
+    </g>
+    <!-- null9 -->
+    <g
+       id="node9"
+       class="node"
+       pointer-events="visible"
+       data-name="null9">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="73.800003"
+         cy="-777.59998"
+         id="ellipse1511"
+         r="1.8" />
+    </g>
+    <!-- t6&#45;&gt;null9 -->
+    <g
+       id="edge3"
+       class="edge"
+       data-name="t6-&gt;null9">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 57.13,-831.65 c 4.14,13.2 9.78,31.12 13.32,42.38"
+         id="path1514" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="67.21,-787.91 73.88,-790.01 73.54,-779.42 "
+         id="polygon1516" />
+    </g>
+    <!-- e12 -->
+    <g
+       id="node12"
+       class="node"
+       pointer-events="visible"
+       data-name="e12">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="145.8"
+         cy="-849.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1519" />
+      <text
+         text-anchor="middle"
+         x="145.8"
+         y="-845.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1521">e</text>
+    </g>
+    <!-- t11&#45;&gt;e12 -->
+    <g
+       id="edge58"
+       class="edge"
+       data-name="t11-&gt;e12">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 159.44,-903.65 c -2.03,7.91 -4.5,17.51 -6.78,26.36"
+         id="path1524" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="149.22,-877.95 156,-876.2 150.12,-867.39 "
+         id="polygon1526" />
+    </g>
+    <!-- null64 -->
+    <g
+       id="node64"
+       class="node"
+       pointer-events="visible"
+       data-name="null64">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="192.8"
+         cy="-849.59998"
+         id="ellipse1529"
+         r="1.8" />
+    </g>
+    <!-- t11&#45;&gt;null64 -->
+    <g
+       id="edge59"
+       class="edge"
+       data-name="t11-&gt;null64">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 170.67,-904.01 c 5.53,13.34 13.12,31.66 17.82,43.01"
+         id="path1532" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="185.4,-859.32 191.86,-862 192.46,-851.43 "
+         id="polygon1534" />
+    </g>
+    <!-- null65 -->
+    <g
+       id="node65"
+       class="node"
+       pointer-events="visible"
+       data-name="null65">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="214.8"
+         cy="-849.59998"
+         id="ellipse1537"
+         r="1.8" />
+    </g>
+    <!-- t11&#45;&gt;null65 -->
+    <g
+       id="edge60"
+       class="edge"
+       data-name="t11-&gt;null65">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 176,-905.05 c 8.09,10.45 18.81,24.6 27.8,37.45 1.64,2.34 3.34,4.91 4.91,7.32"
+         id="path1540" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="205.93,-858.13 211.85,-861.86 214.23,-851.54 "
+         id="polygon1542" />
+    </g>
+    <!-- null13 -->
+    <g
+       id="node13"
+       class="node"
+       pointer-events="visible"
+       data-name="null13">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="98.800003"
+         cy="-777.59998"
+         id="ellipse1545"
+         r="1.8" />
+    </g>
+    <!-- e12&#45;&gt;null13 -->
+    <g
+       id="edge55"
+       class="edge"
+       data-name="e12-&gt;null13">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 135,-832.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1548" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="101.85,-789.83 107.74,-786.05 99.39,-779.53 "
+         id="polygon1550" />
+    </g>
+    <!-- t14 -->
+    <g
+       id="node14"
+       class="node"
+       pointer-events="visible"
+       data-name="t14">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="145.8"
+         cy="-777.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1553" />
+      <text
+         text-anchor="middle"
+         x="145.8"
+         y="-773.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1555">t</text>
+    </g>
+    <!-- e12&#45;&gt;t14 -->
+    <g
+       id="edge56"
+       class="edge"
+       data-name="e12-&gt;t14">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 145.8,-831.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1558" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="142.3,-805.7 149.3,-805.7 145.8,-795.7 "
+         id="polygon1560" />
+    </g>
+    <!-- f30 -->
+    <g
+       id="node30"
+       class="node"
+       pointer-events="visible"
+       data-name="f30">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="239.8"
+         cy="-777.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1563" />
+      <text
+         text-anchor="middle"
+         x="239.8"
+         y="-773.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1565">f</text>
+    </g>
+    <!-- e12&#45;&gt;f30 -->
+    <g
+       id="edge57"
+       class="edge"
+       data-name="e12-&gt;f30">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 163.48,-835.43 c 14.27,10.62 34.54,25.72 50.61,37.68"
+         id="path1568" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="212.41,-794.64 216.59,-800.25 222.52,-791.47 "
+         id="polygon1570" />
+    </g>
+    <!-- s15 -->
+    <g
+       id="node15"
+       class="node"
+       pointer-events="visible"
+       data-name="s15">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="57.799999"
+         cy="-705.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1573" />
+      <text
+         text-anchor="middle"
+         x="57.799999"
+         y="-701.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1575">s</text>
+    </g>
+    <!-- t14&#45;&gt;s15 -->
+    <g
+       id="edge19"
+       class="edge"
+       data-name="t14-&gt;s15">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 128.83,-763.1 c -13.11,10.42 -31.44,25.01 -46.2,36.75"
+         id="path1578" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="80.06,-728.78 84.42,-723.3 74.42,-719.82 "
+         id="polygon1580" />
+    </g>
+    <!-- s25 -->
+    <g
+       id="node25"
+       class="node"
+       pointer-events="visible"
+       data-name="s25">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="134.8"
+         cy="-705.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1583" />
+      <text
+         text-anchor="middle"
+         x="134.8"
+         y="-701.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1585">s</text>
+    </g>
+    <!-- t14&#45;&gt;s25 -->
+    <g
+       id="edge20"
+       class="edge"
+       data-name="t14-&gt;s25">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 143.14,-759.65 c -1.21,7.7 -2.68,17.02 -4.04,25.69"
+         id="path1588" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="135.61,-734.3 142.52,-733.21 137.51,-723.88 "
+         id="polygon1590" />
+    </g>
+    <!-- null29 -->
+    <g
+       id="node29"
+       class="node"
+       pointer-events="visible"
+       data-name="null29">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="181.8"
+         cy="-705.59998"
+         id="ellipse1593"
+         r="1.8" />
+    </g>
+    <!-- t14&#45;&gt;null29 -->
+    <g
+       id="edge21"
+       class="edge"
+       data-name="t14-&gt;null29">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 154.15,-760.36 c 7,13.61 16.77,32.61 22.63,43.99"
+         id="path1596" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="173.68,-714.73 179.91,-717.93 181.37,-707.43 "
+         id="polygon1598" />
+    </g>
+    <!-- null16 -->
+    <g
+       id="node16"
+       class="node"
+       pointer-events="visible"
+       data-name="null16">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="1.8"
+         cy="-633.59998"
+         id="ellipse1601"
+         r="1.8" />
+    </g>
+    <!-- s15&#45;&gt;null16 -->
+    <g
+       id="edge13"
+       class="edge"
+       data-name="s15-&gt;null16">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 44.26,-689.72 c -9.22,10.39 -21.52,24.75 -31.46,38.12 -1.7,2.29 -3.43,4.84 -5,7.25"
+         id="path1604" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="4.64,-645.9 10.59,-642.21 2.36,-635.55 "
+         id="polygon1606" />
+    </g>
+    <!-- e17 -->
+    <g
+       id="node17"
+       class="node"
+       pointer-events="visible"
+       data-name="e17">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="48.799999"
+         cy="-633.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1609" />
+      <text
+         text-anchor="middle"
+         x="48.799999"
+         y="-629.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1611">e</text>
+    </g>
+    <!-- s15&#45;&gt;e17 -->
+    <g
+       id="edge14"
+       class="edge"
+       data-name="s15-&gt;e17">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 55.62,-687.65 c -0.99,7.7 -2.19,17.02 -3.3,25.69"
+         id="path1614" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="48.82,-662.24 55.77,-661.35 51.02,-651.88 "
+         id="polygon1616" />
+    </g>
+    <!-- null24 -->
+    <g
+       id="node24"
+       class="node"
+       pointer-events="visible"
+       data-name="null24">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="95.800003"
+         cy="-633.59998"
+         id="ellipse1619"
+         r="1.8" />
+    </g>
+    <!-- s15&#45;&gt;null24 -->
+    <g
+       id="edge15"
+       class="edge"
+       data-name="s15-&gt;null24">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 66.61,-688.36 c 7.39,13.61 17.71,32.61 23.89,43.99"
+         id="path1622" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="87.5,-642.55 93.65,-645.89 95.35,-635.43 "
+         id="polygon1624" />
+    </g>
+    <!-- null18 -->
+    <g
+       id="node18"
+       class="node"
+       pointer-events="visible"
+       data-name="null18">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="1.8"
+         cy="-561.59998"
+         id="ellipse1627"
+         r="1.8" />
+    </g>
+    <!-- e17&#45;&gt;null18 -->
+    <g
+       id="edge10"
+       class="edge"
+       data-name="e17-&gt;null18">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 38,-616.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1630" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="4.85,-573.83 10.74,-570.05 2.39,-563.53 "
+         id="polygon1632" />
+    </g>
+    <!-- l19 -->
+    <g
+       id="node19"
+       class="node"
+       pointer-events="visible"
+       data-name="l19">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="48.799999"
+         cy="-561.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1635" />
+      <text
+         text-anchor="middle"
+         x="48.799999"
+         y="-557.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1637">l</text>
+    </g>
+    <!-- e17&#45;&gt;l19 -->
+    <g
+       id="edge11"
+       class="edge"
+       data-name="e17-&gt;l19">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 48.8,-615.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1640" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="45.3,-589.7 52.3,-589.7 48.8,-579.7 "
+         id="polygon1642" />
+    </g>
+    <!-- null23 -->
+    <g
+       id="node23"
+       class="node"
+       pointer-events="visible"
+       data-name="null23">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="95.800003"
+         cy="-561.59998"
+         id="ellipse1645"
+         r="1.8" />
+    </g>
+    <!-- e17&#45;&gt;null23 -->
+    <g
+       id="edge12"
+       class="edge"
+       data-name="e17-&gt;null23">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 59.6,-616.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1648" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="86.86,-570.05 92.75,-573.83 95.21,-563.53 "
+         id="polygon1650" />
+    </g>
+    <!-- null20 -->
+    <g
+       id="node20"
+       class="node"
+       pointer-events="visible"
+       data-name="null20">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="26.799999"
+         cy="-489.60001"
+         id="ellipse1653"
+         r="1.8" />
+    </g>
+    <!-- l19&#45;&gt;null20 -->
+    <g
+       id="edge7"
+       class="edge"
+       data-name="l19-&gt;null20">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 43.47,-543.65 c -4.14,13.2 -9.78,31.12 -13.32,42.38"
+         id="path1656" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="26.72,-502.01 33.39,-499.91 27.06,-491.42 "
+         id="polygon1658" />
+    </g>
+    <!-- null21 -->
+    <g
+       id="node21"
+       class="node"
+       pointer-events="visible"
+       data-name="null21">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="48.799999"
+         cy="-489.60001"
+         id="ellipse1661"
+         r="1.8" />
+    </g>
+    <!-- l19&#45;&gt;null21 -->
+    <g
+       id="edge8"
+       class="edge"
+       data-name="l19-&gt;null21">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 48.8,-543.3 c 0,13.07 0,30.59 0,41.77"
+         id="path1664" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="45.3,-501.41 52.3,-501.41 48.8,-491.41 "
+         id="polygon1666" />
+    </g>
+    <!-- null22 -->
+    <g
+       id="node22"
+       class="node"
+       pointer-events="visible"
+       data-name="null22">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="70.800003"
+         cy="-489.60001"
+         id="ellipse1669"
+         r="1.8" />
+    </g>
+    <!-- l19&#45;&gt;null22 -->
+    <g
+       id="edge9"
+       class="edge"
+       data-name="l19-&gt;null22">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 54.13,-543.65 c 4.14,13.2 9.78,31.12 13.32,42.38"
+         id="path1672" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="64.21,-499.91 70.88,-502.01 70.54,-491.42 "
+         id="polygon1674" />
+    </g>
+    <!-- null26 -->
+    <g
+       id="node26"
+       class="node"
+       pointer-events="visible"
+       data-name="null26">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="117.8"
+         cy="-633.59998"
+         id="ellipse1677"
+         r="1.8" />
+    </g>
+    <!-- s25&#45;&gt;null26 -->
+    <g
+       id="edge16"
+       class="edge"
+       data-name="s25-&gt;null26">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 130.68,-687.65 c -3.2,13.2 -7.55,31.12 -10.29,42.38"
+         id="path1680" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="116.96,-645.96 123.76,-644.31 118,-635.42 "
+         id="polygon1682" />
+    </g>
+    <!-- null27 -->
+    <g
+       id="node27"
+       class="node"
+       pointer-events="visible"
+       data-name="null27">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="139.8"
+         cy="-633.59998"
+         id="ellipse1685"
+         r="1.8" />
+    </g>
+    <!-- s25&#45;&gt;null27 -->
+    <g
+       id="edge17"
+       class="edge"
+       data-name="s25-&gt;null27">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 136.04,-687.3 c 0.93,13.07 2.18,30.59 2.98,41.77"
+         id="path1688" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="135.54,-645.13 142.52,-645.63 139.74,-635.41 "
+         id="polygon1690" />
+    </g>
+    <!-- null28 -->
+    <g
+       id="node28"
+       class="node"
+       pointer-events="visible"
+       data-name="null28">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="161.8"
+         cy="-633.59998"
+         id="ellipse1693"
+         r="1.8" />
+    </g>
+    <!-- s25&#45;&gt;null28 -->
+    <g
+       id="edge18"
+       class="edge"
+       data-name="s25-&gt;null28">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 141.2,-688.01 c 5.14,13.34 12.21,31.66 16.59,43.01"
+         id="path1696" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="154.62,-643.5 161.15,-646.02 161.48,-635.43 "
+         id="polygon1698" />
+    </g>
+    <!-- null31 -->
+    <g
+       id="node31"
+       class="node"
+       pointer-events="visible"
+       data-name="null31">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-705.59998"
+         id="ellipse1701"
+         r="1.8" />
+    </g>
+    <!-- f30&#45;&gt;null31 -->
+    <g
+       id="edge52"
+       class="edge"
+       data-name="f30-&gt;null31">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 231.45,-760.36 c -7,13.61 -16.77,32.61 -22.63,43.99"
+         id="path1704" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="205.69,-717.93 211.92,-714.73 204.23,-707.43 "
+         id="polygon1706" />
+    </g>
+    <!-- f32 -->
+    <g
+       id="node32"
+       class="node"
+       pointer-events="visible"
+       data-name="f32">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-705.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1709" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-701.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1711">f</text>
+    </g>
+    <!-- f30&#45;&gt;f32 -->
+    <g
+       id="edge53"
+       class="edge"
+       data-name="f30-&gt;f32">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 242.46,-759.65 c 1.21,7.7 2.68,17.02 4.04,25.69"
+         id="path1714" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="243.08,-733.21 249.99,-734.3 248.09,-723.88 "
+         id="polygon1716" />
+    </g>
+    <!-- null63 -->
+    <g
+       id="node63"
+       class="node"
+       pointer-events="visible"
+       data-name="null63">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-705.59998"
+         id="ellipse1719"
+         r="1.8" />
+    </g>
+    <!-- f30&#45;&gt;null63 -->
+    <g
+       id="edge54"
+       class="edge"
+       data-name="f30-&gt;null63">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 254.01,-761.81 c 9.67,10.35 22.52,24.7 32.79,38.21 1.8,2.36 3.61,5.02 5.22,7.52"
+         id="path1722" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="289.04,-714.25 295.01,-717.91 297.25,-707.55 "
+         id="polygon1724" />
+    </g>
+    <!-- null33 -->
+    <g
+       id="node33"
+       class="node"
+       pointer-events="visible"
+       data-name="null33">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-633.59998"
+         id="ellipse1727"
+         r="1.8" />
+    </g>
+    <!-- f32&#45;&gt;null33 -->
+    <g
+       id="edge49"
+       class="edge"
+       data-name="f32-&gt;null33">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-688.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1730" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-645.83 212.74,-642.05 204.39,-635.53 "
+         id="polygon1732" />
+    </g>
+    <!-- e34 -->
+    <g
+       id="node34"
+       class="node"
+       pointer-events="visible"
+       data-name="e34">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-633.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1735" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-629.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1737">e</text>
+    </g>
+    <!-- f32&#45;&gt;e34 -->
+    <g
+       id="edge50"
+       class="edge"
+       data-name="f32-&gt;e34">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-687.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1740" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-661.7 254.3,-661.7 250.8,-651.7 "
+         id="polygon1742" />
+    </g>
+    <!-- null62 -->
+    <g
+       id="node62"
+       class="node"
+       pointer-events="visible"
+       data-name="null62">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-633.59998"
+         id="ellipse1745"
+         r="1.8" />
+    </g>
+    <!-- f32&#45;&gt;null62 -->
+    <g
+       id="edge51"
+       class="edge"
+       data-name="f32-&gt;null62">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-688.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1748" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-642.05 294.75,-645.83 297.21,-635.53 "
+         id="polygon1750" />
+    </g>
+    <!-- null35 -->
+    <g
+       id="node35"
+       class="node"
+       pointer-events="visible"
+       data-name="null35">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-561.59998"
+         id="ellipse1753"
+         r="1.8" />
+    </g>
+    <!-- e34&#45;&gt;null35 -->
+    <g
+       id="edge46"
+       class="edge"
+       data-name="e34-&gt;null35">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-616.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1756" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-573.83 212.74,-570.05 204.39,-563.53 "
+         id="polygon1758" />
+    </g>
+    <!-- r36 -->
+    <g
+       id="node36"
+       class="node"
+       pointer-events="visible"
+       data-name="r36">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-561.59998"
+         rx="27"
+         ry="18"
+         id="ellipse1761" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-557.40002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1763">r</text>
+    </g>
+    <!-- e34&#45;&gt;r36 -->
+    <g
+       id="edge47"
+       class="edge"
+       data-name="e34-&gt;r36">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-615.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1766" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-589.7 254.3,-589.7 250.8,-579.7 "
+         id="polygon1768" />
+    </g>
+    <!-- null61 -->
+    <g
+       id="node61"
+       class="node"
+       pointer-events="visible"
+       data-name="null61">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-561.59998"
+         id="ellipse1771"
+         r="1.8" />
+    </g>
+    <!-- e34&#45;&gt;null61 -->
+    <g
+       id="edge48"
+       class="edge"
+       data-name="e34-&gt;null61">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-616.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1774" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-570.05 294.75,-573.83 297.21,-563.53 "
+         id="polygon1776" />
+    </g>
+    <!-- null37 -->
+    <g
+       id="node37"
+       class="node"
+       pointer-events="visible"
+       data-name="null37">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-489.60001"
+         id="ellipse1779"
+         r="1.8" />
+    </g>
+    <!-- r36&#45;&gt;null37 -->
+    <g
+       id="edge43"
+       class="edge"
+       data-name="r36-&gt;null37">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-544.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1782" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-501.83 212.74,-498.05 204.39,-491.53 "
+         id="polygon1784" />
+    </g>
+    <!-- e38 -->
+    <g
+       id="node38"
+       class="node"
+       pointer-events="visible"
+       data-name="e38">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-489.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1787" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-485.39999"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1789">e</text>
+    </g>
+    <!-- r36&#45;&gt;e38 -->
+    <g
+       id="edge44"
+       class="edge"
+       data-name="r36-&gt;e38">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-543.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1792" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-517.7 254.3,-517.7 250.8,-507.7 "
+         id="polygon1794" />
+    </g>
+    <!-- null60 -->
+    <g
+       id="node60"
+       class="node"
+       pointer-events="visible"
+       data-name="null60">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-489.60001"
+         id="ellipse1797"
+         r="1.8" />
+    </g>
+    <!-- r36&#45;&gt;null60 -->
+    <g
+       id="edge45"
+       class="edge"
+       data-name="r36-&gt;null60">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-544.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1800" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-498.05 294.75,-501.83 297.21,-491.53 "
+         id="polygon1802" />
+    </g>
+    <!-- null39 -->
+    <g
+       id="node39"
+       class="node"
+       pointer-events="visible"
+       data-name="null39">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-417.60001"
+         id="ellipse1805"
+         r="1.8" />
+    </g>
+    <!-- e38&#45;&gt;null39 -->
+    <g
+       id="edge40"
+       class="edge"
+       data-name="e38-&gt;null39">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-472.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1808" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-429.83 212.74,-426.05 204.39,-419.53 "
+         id="polygon1810" />
+    </g>
+    <!-- n40 -->
+    <g
+       id="node40"
+       class="node"
+       pointer-events="visible"
+       data-name="n40">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-417.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1813" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-413.39999"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1815">n</text>
+    </g>
+    <!-- e38&#45;&gt;n40 -->
+    <g
+       id="edge41"
+       class="edge"
+       data-name="e38-&gt;n40">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-471.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1818" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-445.7 254.3,-445.7 250.8,-435.7 "
+         id="polygon1820" />
+    </g>
+    <!-- null59 -->
+    <g
+       id="node59"
+       class="node"
+       pointer-events="visible"
+       data-name="null59">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-417.60001"
+         id="ellipse1823"
+         r="1.8" />
+    </g>
+    <!-- e38&#45;&gt;null59 -->
+    <g
+       id="edge42"
+       class="edge"
+       data-name="e38-&gt;null59">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-472.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1826" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-426.05 294.75,-429.83 297.21,-419.53 "
+         id="polygon1828" />
+    </g>
+    <!-- null41 -->
+    <g
+       id="node41"
+       class="node"
+       pointer-events="visible"
+       data-name="null41">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-345.60001"
+         id="ellipse1831"
+         r="1.8" />
+    </g>
+    <!-- n40&#45;&gt;null41 -->
+    <g
+       id="edge37"
+       class="edge"
+       data-name="n40-&gt;null41">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-400.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1834" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-357.83 212.74,-354.05 204.39,-347.53 "
+         id="polygon1836" />
+    </g>
+    <!-- t42 -->
+    <g
+       id="node42"
+       class="node"
+       pointer-events="visible"
+       data-name="t42">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-345.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1839" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-341.39999"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1841">t</text>
+    </g>
+    <!-- n40&#45;&gt;t42 -->
+    <g
+       id="edge38"
+       class="edge"
+       data-name="n40-&gt;t42">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-399.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1844" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-373.7 254.3,-373.7 250.8,-363.7 "
+         id="polygon1846" />
+    </g>
+    <!-- null58 -->
+    <g
+       id="node58"
+       class="node"
+       pointer-events="visible"
+       data-name="null58">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-345.60001"
+         id="ellipse1849"
+         r="1.8" />
+    </g>
+    <!-- n40&#45;&gt;null58 -->
+    <g
+       id="edge39"
+       class="edge"
+       data-name="n40-&gt;null58">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-400.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1852" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-354.05 294.75,-357.83 297.21,-347.53 "
+         id="polygon1854" />
+    </g>
+    <!-- null43 -->
+    <g
+       id="node43"
+       class="node"
+       pointer-events="visible"
+       data-name="null43">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-273.60001"
+         id="ellipse1857"
+         r="1.8" />
+    </g>
+    <!-- t42&#45;&gt;null43 -->
+    <g
+       id="edge34"
+       class="edge"
+       data-name="t42-&gt;null43">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-328.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1860" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-285.83 212.74,-282.05 204.39,-275.53 "
+         id="polygon1862" />
+    </g>
+    <!-- i44 -->
+    <g
+       id="node44"
+       class="node"
+       pointer-events="visible"
+       data-name="i44">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-273.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1865" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-269.39999"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1867">i</text>
+    </g>
+    <!-- t42&#45;&gt;i44 -->
+    <g
+       id="edge35"
+       class="edge"
+       data-name="t42-&gt;i44">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-327.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1870" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-301.7 254.3,-301.7 250.8,-291.7 "
+         id="polygon1872" />
+    </g>
+    <!-- null57 -->
+    <g
+       id="node57"
+       class="node"
+       pointer-events="visible"
+       data-name="null57">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-273.60001"
+         id="ellipse1875"
+         r="1.8" />
+    </g>
+    <!-- t42&#45;&gt;null57 -->
+    <g
+       id="edge36"
+       class="edge"
+       data-name="t42-&gt;null57">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-328.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1878" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-282.05 294.75,-285.83 297.21,-275.53 "
+         id="polygon1880" />
+    </g>
+    <!-- null45 -->
+    <g
+       id="node45"
+       class="node"
+       pointer-events="visible"
+       data-name="null45">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-201.60001"
+         id="ellipse1883"
+         r="1.8" />
+    </g>
+    <!-- i44&#45;&gt;null45 -->
+    <g
+       id="edge31"
+       class="edge"
+       data-name="i44-&gt;null45">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-256.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1886" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-213.83 212.74,-210.05 204.39,-203.53 "
+         id="polygon1888" />
+    </g>
+    <!-- a46 -->
+    <g
+       id="node46"
+       class="node"
+       pointer-events="visible"
+       data-name="a46">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-201.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1891" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-197.39999"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1893">a</text>
+    </g>
+    <!-- i44&#45;&gt;a46 -->
+    <g
+       id="edge32"
+       class="edge"
+       data-name="i44-&gt;a46">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-255.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1896" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-229.7 254.3,-229.7 250.8,-219.7 "
+         id="polygon1898" />
+    </g>
+    <!-- null56 -->
+    <g
+       id="node56"
+       class="node"
+       pointer-events="visible"
+       data-name="null56">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-201.60001"
+         id="ellipse1901"
+         r="1.8" />
+    </g>
+    <!-- i44&#45;&gt;null56 -->
+    <g
+       id="edge33"
+       class="edge"
+       data-name="i44-&gt;null56">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-256.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1904" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-210.05 294.75,-213.83 297.21,-203.53 "
+         id="polygon1906" />
+    </g>
+    <!-- null47 -->
+    <g
+       id="node47"
+       class="node"
+       pointer-events="visible"
+       data-name="null47">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-129.60001"
+         id="ellipse1909"
+         r="1.8" />
+    </g>
+    <!-- a46&#45;&gt;null47 -->
+    <g
+       id="edge28"
+       class="edge"
+       data-name="a46-&gt;null47">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-184.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1912" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-141.83 212.74,-138.05 204.39,-131.53 "
+         id="polygon1914" />
+    </g>
+    <!-- a48 -->
+    <g
+       id="node48"
+       class="node"
+       pointer-events="visible"
+       data-name="a48">
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="250.8"
+         cy="-129.60001"
+         rx="27"
+         ry="18"
+         id="ellipse1917" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-125.4"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1919">a</text>
+    </g>
+    <!-- a46&#45;&gt;a48 -->
+    <g
+       id="edge29"
+       class="edge"
+       data-name="a46-&gt;a48">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-183.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1922" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-157.7 254.3,-157.7 250.8,-147.7 "
+         id="polygon1924" />
+    </g>
+    <!-- null55 -->
+    <g
+       id="node55"
+       class="node"
+       pointer-events="visible"
+       data-name="null55">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-129.60001"
+         id="ellipse1927"
+         r="1.8" />
+    </g>
+    <!-- a46&#45;&gt;null55 -->
+    <g
+       id="edge30"
+       class="edge"
+       data-name="a46-&gt;null55">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-184.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1930" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-138.05 294.75,-141.83 297.21,-131.53 "
+         id="polygon1932" />
+    </g>
+    <!-- null49 -->
+    <g
+       id="node49"
+       class="node"
+       pointer-events="visible"
+       data-name="null49">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="203.8"
+         cy="-57.599998"
+         id="ellipse1935"
+         r="1.8" />
+    </g>
+    <!-- a48&#45;&gt;null49 -->
+    <g
+       id="edge25"
+       class="edge"
+       data-name="a48-&gt;null49">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 240,-112.89 c -7.2,10.51 -16.84,24.68 -25.2,37.29 -1.58,2.38 -3.26,4.96 -4.83,7.38"
+         id="path1938" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="206.85,-69.83 212.74,-66.05 204.39,-59.53 "
+         id="polygon1940" />
+    </g>
+    <!-- l50 -->
+    <g
+       id="node50"
+       class="node"
+       pointer-events="visible"
+       data-name="l50">
+      <ellipse
+         fill="none"
+         stroke="#ff0000"
+         cx="250.8"
+         cy="-57.599998"
+         rx="27"
+         ry="18"
+         id="ellipse1943" />
+      <text
+         text-anchor="middle"
+         x="250.8"
+         y="-53.400002"
+         font-family="Times, serif"
+         font-size="14px"
+         id="text1945">l</text>
+    </g>
+    <!-- a48&#45;&gt;l50 -->
+    <g
+       id="edge26"
+       class="edge"
+       data-name="a48-&gt;l50">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-111.3 c 0,7.72 0,16.99 0,25.59"
+         id="path1948" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-85.7 254.3,-85.7 250.8,-75.7 "
+         id="polygon1950" />
+    </g>
+    <!-- null54 -->
+    <g
+       id="node54"
+       class="node"
+       pointer-events="visible"
+       data-name="null54">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="297.79999"
+         cy="-57.599998"
+         id="ellipse1953"
+         r="1.8" />
+    </g>
+    <!-- a48&#45;&gt;null54 -->
+    <g
+       id="edge27"
+       class="edge"
+       data-name="a48-&gt;null54">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.6,-112.89 c 7.2,10.51 16.84,24.68 25.2,37.29 1.58,2.38 3.26,4.96 4.83,7.38"
+         id="path1956" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="288.86,-66.05 294.75,-69.83 297.21,-59.53 "
+         id="polygon1958" />
+    </g>
+    <!-- null51 -->
+    <g
+       id="node51"
+       class="node"
+       pointer-events="visible"
+       data-name="null51">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="228.8"
+         cy="-1.8"
+         id="ellipse1961"
+         r="1.8" />
+    </g>
+    <!-- l50&#45;&gt;null51 -->
+    <g
+       id="edge22"
+       class="edge"
+       data-name="l50-&gt;null51">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 244.08,-40.17 c -3.58,8.76 -7.88,19.28 -11.01,26.92"
+         id="path1964" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="229.74,-14.34 236.22,-11.69 229.19,-3.76 "
+         id="polygon1966" />
+    </g>
+    <!-- null52 -->
+    <g
+       id="node52"
+       class="node"
+       pointer-events="visible"
+       data-name="null52">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="250.8"
+         cy="-1.8"
+         id="ellipse1969"
+         r="1.8" />
+    </g>
+    <!-- l50&#45;&gt;null52 -->
+    <g
+       id="edge23"
+       class="edge"
+       data-name="l50-&gt;null52">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 250.8,-39.58 c 0,8.41 0,18.3 0,25.71"
+         id="path1972" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="247.3,-13.73 254.3,-13.73 250.8,-3.73 "
+         id="polygon1974" />
+    </g>
+    <!-- null53 -->
+    <g
+       id="node53"
+       class="node"
+       pointer-events="visible"
+       data-name="null53">
+      <circle
+         fill="#000000"
+         stroke="#000000"
+         cx="272.79999"
+         cy="-1.8"
+         id="ellipse1977"
+         r="1.8" />
+    </g>
+    <!-- l50&#45;&gt;null53 -->
+    <g
+       id="edge24"
+       class="edge"
+       data-name="l50-&gt;null53">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 257.52,-40.17 c 3.58,8.76 7.88,19.28 11.01,26.92"
+         id="path1980" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="265.38,-11.69 271.86,-14.34 272.41,-3.76 "
+         id="polygon1982" />
+    </g>
+  </g>
+</svg>
